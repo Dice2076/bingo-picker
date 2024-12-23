@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings, .controls {
+    margin: 20px 0;
+}
+
+.settings label, .controls button {
+    margin: 0 10px;
+}
+
+#latest-number {
+    font-size: 2em;
+    color: #e74c3c;
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}

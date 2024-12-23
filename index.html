@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>賓果開獎器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>賓果開獎器</h1>
+        
+        <div class="settings">
+            <label for="min">最小數字：</label>
+            <input type="number" id="min" value="1"><br><br>
+            
+            <label for="max">最大數字：</label>
+            <input type="number" id="max" value="75"><br><br>
+            
+            <label for="color">主視覺顏色：</label>
+            <input type="color" id="color" value="#9d7967"><br><br>
+            
+            <button id="apply-settings">應用設定</button>
+        </div>
+        
+        <div class="controls">
+            <button id="draw-number">開獎</button>
+            <button id="reset">重置</button>
+        </div>
+        
+        <div class="current-number">
+            <h2>最新抽出數字：<span id="latest-number">-</span></h2>
+        </div>
+        
+        <div class="history">
+            <h3>抽獎紀錄：</h3>
+            <ul id="number-history">
+                <!-- 抽出的數字會顯示在這裡 -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
